@@ -1,0 +1,25 @@
+{
+  "name": "krei",
+  "version": "0.0.1",
+  "description": "Project creation framework with plugin support",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nyteshade/krei.git"
+  },
+  "keywords": [
+    "express",
+    "electron",
+    "generator",
+    "plugins"
+  ],
+  "author": "Brielle Harrison",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nyteshade/krei/issues"
+  },
+  "homepage": "https://github.com/nyteshade/krei#readme"
+}
