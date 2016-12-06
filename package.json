@@ -21,5 +21,16 @@
   "bugs": {
     "url": "https://github.com/nyteshade/krei/issues"
   },
-  "homepage": "https://github.com/nyteshade/krei#readme"
+  "homepage": "https://github.com/nyteshade/krei#readme",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.8",
+    "babel-preset-latest": "^6.16.0",
+    "webpack": "^1.13.3"
+  },
+  "dependencies": {
+    "babel": "^6.5.2",
+    "nen-core": "^0.1.0"
+  }
 }
