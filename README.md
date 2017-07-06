@@ -17,3 +17,20 @@ Krei means create in Esperanto. Project coming soon. This repo reserves the name
 - [ ] Allow base npm initialization to occur
 - [ ] Allow clone of existing repo as a base before applying krei plugins
 - [ ] Provide an electron GUI app
+
+## Krei Plugin Layout
+Merely a brain dump, not even a spec yet.
+
+```json
+{
+  ".krei": {
+    "desc": "directory containing config items to merge and rules to follow",
+    ".babelrc": "rules to intelligently merge for babel",
+    ".flowconfig": "rules to intelligently merge for flowtype",
+    ".gitignore": "rules to blindly append to existing .gitignore files or act as a basis",
+    "package.json": "rules to intelligently merge and configure",
+    "vars.package.json": "custom input to query from the user for use in configuring .krei/package.json before merging"
+  },
+  "...": "all other files that will be blindly merged on top of the file tree, overwriting those beneath this order"
+}
+```
