@@ -1,16 +1,16 @@
-function showMe()
+/**
+ * Krei is a plugin driven project intializer tool.
+ */
+export class Krei
 {
-  return new Promise((resolve, reject) => {
-    var time = parseInt(Math.random() * 5000);
-    setTimeout(() => {resolve(`done in ${time}ms`)}, time);
-  });
+
 }
 
-export async function show5()
+export class KreiPlugin
 {
-  for (let i = 0; i < 5; i++) {
-    let val = await showMe();
-    console.log(`i:${i} ${val}`);
-  }
-  console.log('\nDone!\n');
+  /** @return a String describing the function of the plugin. */
+  get description()       { return this._description; }
+
+  /** @param {String} value the new description of this plugin. */
+  set description(value)  { this._description = value; }
 }
