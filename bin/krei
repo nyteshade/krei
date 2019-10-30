@@ -1,0 +1,6 @@
+#!/usr/bin/env node
+
+const { mount } = require('ink') 
+const { Counter } = require('../lib/krei-cli')
+
+mount(new Counter(), process.stdout)
