@@ -28,7 +28,7 @@
     "babel-core": "^6.18.2",
     "babel-loader": "^6.4.1",
     "babel-preset-latest": "^6.16.0",
-    "webpack": "^1.15.0"
+    "webpack": "^5.89.0"
   },
   "dependencies": {
     "babel": "^6.23.0",
